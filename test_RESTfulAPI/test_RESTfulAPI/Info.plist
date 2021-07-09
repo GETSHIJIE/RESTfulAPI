@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>該應用程式會幫您播放音樂以及影片聲音等。</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>We use Bluetooth to connect to the Printer device.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>We use Bluetooth to connect to the Printer device.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>該應用程式可以幫您拍照、錄影、掃描二維條碼等。</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>該應用程式注重隱私，需使用人臉辨識幫您解鎖功能。</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>該應用程式可以幫您分享目前所在位置、定位打卡等。</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>該應用程式可以幫您分享目前所在位置、定位打卡等。</string>
+	<key>NSLocationUsageDescription</key>
+	<string>該應用程式可以幫您分享目前所在位置、定位打卡等。</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>該應用程式可以幫您分享目前所在位置、定位打卡等。</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>該應用程式能夠錄製聲音，會將您的聲音記錄下來。</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>該應用程式可以透過相簿選取進行圖片上傳、儲存、編輯等</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>該應用程式可以透過相簿選取進行圖片上傳、儲存、編輯等</string>
+</dict>
+</plist>
